@@ -8,6 +8,15 @@
      padding: 2rem 0;
     }
    }
+  
+
+  @media (max-width: 768px) {
+    ul.nav {
+      width: 90%;
+      
+    }
+  }
+
 
    ul.nav {
     width: 60%;
@@ -15,9 +24,6 @@
     display: flex;
     align-items: left;
     justify-content: space-between;
-    @media (max-width: 768px) {
-      width: 90%;
-    }
   }
   ul.nav li {
     padding: 0.4rem;
