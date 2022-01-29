@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'MyFont_Bold';
+  src: local('MyFont_Bold'), url('./fonts/Circular-Std-Bold.otf') format('otf');
+} 
+@font-face {
+  font-family: 'MyFont_Book';
+  src: local('MyFont_Book'), url('./fonts/Circular-Std-Book.otf') format('otf');
+} 
+@font-face {
+  font-family: 'MyFont_Medium';
+  src: local('MyFont_Medium'), url('./fonts/Circular-Std-Medium.otf') format('otf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  min-height: 100vh;
+}
+
+.container-init{
+  margin-left:5rem;
+  margin-right:5rem;
+}
+
+hr.solid {
+  border-top: 0.8px solid #eee;
+  margin-bottom: 1.2rem;
+}
+
+.img-logo{
+  display: flex;
+  justify-content: center;
+  margin:1.3rem;
+}
+ 

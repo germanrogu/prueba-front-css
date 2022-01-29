@@ -1,0 +1,47 @@
+
+
+   .Tabs {
+    width: 80%;
+    height: auto;
+    min-height: 200px;
+    @media (max-width: 769px) {
+     padding: 2rem 0;
+    }
+   }
+
+   ul.nav {
+    width: 60%;
+    margin-bottom:1.2rem;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    @media (max-width: 768px) {
+      width: 90%;
+    }
+  }
+  ul.nav li {
+    padding: 0.4rem;
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.4s;
+    font-weight: 700;
+    color: rgb(117, 117, 117);
+  }
+
+  ul.nav li:hover {
+    background: rgba(48, 48, 48, 0.15);
+  }
+  ul.nav li.active {
+    border-bottom: 2px solid black;
+    color:black;
+  }
+
+.FirstTab p,
+.SecondTab p,
+.ThirdTab p {
+  font-size: 1rem;
+  text-align: left;
+  color: rgb(117, 117, 117);
+
+}
