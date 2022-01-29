@@ -1,15 +1,4 @@
-@font-face {
-  font-family: 'MyFont_Bold';
-  src: local('MyFont_Bold'), url('./fonts/Circular-Std-Bold.otf') format('otf');
-} 
-@font-face {
-  font-family: 'MyFont_Book';
-  src: local('MyFont_Book'), url('./fonts/Circular-Std-Book.otf') format('otf');
-} 
-@font-face {
-  font-family: 'MyFont_Medium';
-  src: local('MyFont_Medium'), url('./fonts/Circular-Std-Medium.otf') format('otf');
-}
+
 
 * {
   margin: 0;
