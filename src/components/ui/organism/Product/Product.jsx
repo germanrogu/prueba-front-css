@@ -3,6 +3,7 @@ import { Logo } from "../../atoms/Logo/Logo";
 import { ItemDetail } from "../../molecules/ItemDetail/ItemDetail";
 import logo from "../../../../img/serempreLogo.jpg";
 import { Footer } from "../../molecules/Footer/Footer";
+import { AditionalFeatures } from "../../molecules/AditionalFeatures/AditionalFeatures";
 
 export const Product = () => {
   const [product, setProduct] = useState([]);
@@ -35,7 +36,8 @@ export const Product = () => {
           <Logo Logo={logo} />
           <hr className="solid"></hr>
           <ItemDetail product={product} />
-          <Footer  product={product}/>
+          <AditionalFeatures product={product.colors} />
+          <Footer product={product} />
         </>
       )}
     </>

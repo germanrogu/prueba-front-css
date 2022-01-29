@@ -46,6 +46,8 @@
 .FirstTab p,
 .SecondTab p,
 .ThirdTab p {
+  line-height : 20px;
+
   font-size: 1rem;
   text-align: left;
   color: rgb(117, 117, 117);
