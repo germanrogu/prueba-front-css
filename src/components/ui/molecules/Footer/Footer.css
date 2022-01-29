@@ -1,0 +1,82 @@
+footer{
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+    border-top:0.1px solid #afafaf;
+}
+
+.container_footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin:auto;
+    max-width: 1300px;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+.box_footer{
+    display:flex;
+    flex-direction: column;
+    padding:2rem;
+}
+
+.title{
+    margin-bottom: 1rem;
+    color:black;
+    font-size: 0.9rem;
+
+}
+
+.description{
+    color:#7a7a7a;
+    font-size: 0.9rem;
+}
+
+.price{
+    font-size:1.8rem;
+    text-align: right;
+}
+
+.button-3 {
+    height:3.5rem;
+  background-color: #1E96D5;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 6px 16px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-3:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.button-3:hover {
+  background-color: #44a8dd;
+}
+
+.button-3:focus {
+  box-shadow: rgba(97, 97, 97, 0.4) 0 0 0 3px;
+  outline: none;
+}
+
+.button-3:disabled {
+  background-color: #94d3a2;
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.button-3:active {
+  background-color:#247baa;
+  box-shadow: rgba(24, 24, 24, 0.2) 0 1px 0 inset;
+}
